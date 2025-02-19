@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/css.css">
+    <title>Space Adventure</title>
+</head>
+<body>
+    <div id="contenedorGral">
+        <section id="bienvenida" class="dispblock">
+        <div>
+            <div id="texto1">
+                <h1>Bienvenido a Space Adventure</h1>
+                <p>Hola astronauta, estas a punto de embarcarte en una mision especial para salvar al planeta tierra de una invasion estraterrestre. Esta aventura pondra a prueba no solo tu pasicencia sino que tus refljos tambien.
+                    Exitos.
+                </p>
+            </div>
+
+            <h1 id="seleccion">Selecciona tu personaje</h1>
+            <div id="personaje">
+            </div>
+            <div>
+                <div id="personajes">
+                </div>
+                <div id="datosJugador">
+                    <form>
+                        <input type="text" id="username" name="username" placeholder="Escribe tu nombre" required>
+                        <button id="comenzar" type="button" onclick="irpantalla2()">Comenzar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="pantalla2" class="dispnone">
+        <header>
+            <h1 id="nombre"></h1>
+        </header>
+        <div id="contenedor-pantalla2">
+
+        </div>
+        <nav>
+            <ul>
+            <li><a href="https://get-the-ship.vercel.app/">Mision</a></li>
+            <li><a href="https://animationp5.vercel.app/">Amanecer</a></li>
+            <li></li>
+        </ul>
+        </nav>
+        
+       
+        <button id="btn-volver" onclick="irpantalla1()">volver</button>
+    </section>
+    </div>
+    <script src="/js/js.js"></script>
+</body>
+</html>

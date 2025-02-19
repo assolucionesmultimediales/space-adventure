@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    color: white;
+    box-sizing: border-box; 
+}
+
+p {
+    font-size: large;
+}
+
+body {
+    background-image: url('../multimedia/fondo.gif');
+    background-size: cover; /* ajusta la imagen al tamaño de la pantalla */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#contenedorGral {
+    width: 60%; /* Ocupa el 100% del ancho disponible */
+    margin: 0 auto; /* Centra el contenedor */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+#seleccion {
+    margin-bottom: 10%;
+}
+
+#texto1 {
+    margin-bottom: 5%;
+}
+
+#texto1 h1 {
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+input{
+    font-size: large;
+    margin-bottom: 5%;
+}
+
+#personajes {
+    display: flex;
+    gap: 5%;
+}
+
+#personaje {
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.avatar {
+    width: 80%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.avatares {
+    width: 30%;
+    margin-bottom: 10%;
+    border-radius: 20%;
+    border: 5px solid white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.dispnone {
+    display: none;
+}
+
+.dispblock {
+    display: block;
+}
+
+#fotoJugador img {
+    width: 30%;
+    border-radius: 20px;
+    margin-left: 35%;
+}
+
+.felx {
+    display: flex;
+}
+
+#pantalla2 {
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#pantalla2 header {
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espacio interno */
+    margin: 0; /* Elimina los márgenes */
+}
+
+#pantalla2 header h1 {
+    font-size: 48px; /* Tamaño de fuente más manejable */
+    white-space: nowrap; /* Evita que el texto se divida en dos líneas */
+}
+
+#fotoJugador {
+    width: 100%;
+    padding: 5%;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+button {
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: x-large;
+    padding-top: 2%;
+    background-color: black;
+    margin-bottom: 25%;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    #contenedorGral {
+        width: 80%; /* Ocupa el 100% del ancho disponible */
+        max-width: 1200px; /* Limita el ancho máximo si es necesario */
+    }
+
+    #texto1 {
+        padding-top: 5%;    
+        margin-bottom: 5%;
+    }
+
+    #texto1 h1 {
+        font-size: 50px;
+    }
+
+    #texto1 p {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 0%;
+
+    }
+
+    #seleccion {
+        font-size: 32px;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+    #personaje {
+        margin-bottom: 0;
+    }
+
+    .avatar {
+        width: 30%;
+        margin-bottom: 5%;
+    }
+
+    #personajes {
+        margin-left: 23%;
+    }
+
+    .avatares {
+        width: 20%;
+    }
+
+    form {
+        width: 50%;
+        margin-left: 23%;
+    }
+
+    input {
+        border: none;
+        border-bottom: 2px solid white;
+        font-size: x-large;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        margin-bottom: 5%;
+    }
+
+    ::placeholder {
+        font-size: x-large;
+        margin-left: 2%;
+    }
+
+
+    button:hover {
+        font-weight: bolder;
+    }
+
+    #pantalla2 header {
+        width: 100%; /* Ocupa el 100% del ancho disponible */
+        padding: 40px; /* Más espacio interno */
+        margin: 0; /* Elimina los márgenes */
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
+    #pantalla2 header h1 {
+        font-size: 44px; /* Tamaño de fuente más grande */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */
+    }
+
+    nav{
+        margin-bottom: 5%;
+    }
+
+    ul{
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    #pantalla2 .avatar{
+        width: 50%;
+    }
+
+    
+    #contenedor-pantalla2 p{
+        font-size: xx-large;
+        margin-bottom: 5%;
+        line-height: 1.5;
+    }
+
+    #btn-volver{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 2%;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+}
