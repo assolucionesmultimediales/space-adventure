@@ -36,7 +36,7 @@ for (let i = 0; i < personajesFotos.length; i++) {
 const jugador = {
     nombre: "", // se actualizará en irpantalla2()             
     avatar: imgPersonajeSolo.getAttribute("src"), // Inicialmente, la primera imagen
-    bienvenida: " gracias por ofrecerte a salvar a nuestro querido planeta, ademas de realizar tu mision, tenes la posibilidad de ir de visitar algunos lugares especiales, podes ver como amanece o disfrutar de una noche estrellada. que disfrutes mucho tu viaje"
+    bienvenida: "Gracias por ofrecerte a salvar a nuestro querido planeta, como recompenza por tu acto de valentia, podes ir a visitar algunos lugares especiales, como un amanecer o disfrutar de una noche estrellada en un lugar muy lejano. Que disfrutes mucho tu viaje"
 };
 
 // pantallas
