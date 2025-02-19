@@ -12,13 +12,12 @@ html, body {
     padding: 0;
     min-height: 100vh; /* asegura que ocupen al menos toda la altura del viewport */
     height: 100%;
-    background-color: black; /* fallback por si la imagen tarda en cargar */
 }
 
 body {
     background-image: url('/multimedia/fondo.gif'); /* ruta absoluta si la imagen está en public */
     background-size: cover;       /* la imagen cubre todo el fondo sin deformarse */
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-position: center;
     background-attachment: fixed; /* mantiene el fondo fijo */
     display: grid;
