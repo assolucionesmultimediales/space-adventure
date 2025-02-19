@@ -33,7 +33,7 @@ p {
 }
 
 #contenedorGral {
-    width: 60%; /* Ocupa el 100% del ancho disponible */
+    width: 50%; /* Ocupa el 100% del ancho disponible */
     margin: 0 auto; /* Centra el contenedor */
     display: flex;
     flex-direction: column; 
@@ -61,8 +61,15 @@ form {
 }
 
 input{
+    color: rgb(255, 255, 255);
     font-size: large;
     margin-bottom: 5%;
+    background-color: black
+}
+
+::placeholder{
+    color: white;
+    
 }
 
 #personajes {
@@ -160,8 +167,7 @@ button {
 
 @media (min-width: 768px) {
     #contenedorGral {
-        width: 80%; /* Ocupa el 100% del ancho disponible */
-        max-width: 1200px; /* Limita el ancho máximo si es necesario */
+        width: 50%; 
     }
 
     #texto1 {
@@ -170,7 +176,7 @@ button {
     }
 
     #texto1 h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #texto1 p {
@@ -222,6 +228,12 @@ button {
         margin-left: 2%;
     }
 
+    button{
+        font-size: xx-large;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
 
     button:hover {
         font-weight: bolder;
@@ -270,6 +282,7 @@ button {
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 2%;
+        padding-top: 2%;
         font-size: xx-large;
         font-weight: bolder;
     }
