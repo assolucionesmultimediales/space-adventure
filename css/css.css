@@ -26,6 +26,9 @@ body {
     flex-direction: column;
     justify-items: center;
     width: 100%;
+    cursor: url('/multimedia/cursor.png') 16 16, auto;
+
+
 }
 
 p {
@@ -153,6 +156,12 @@ ul {
 a {
     text-decoration: none;
     font-size: larger;
+    color:blueviolet;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: rgb(185, 143, 224);
 }
 
 button {
